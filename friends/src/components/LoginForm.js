@@ -27,22 +27,13 @@ const LoginForm = props => {
     };
 
     return (
-        <div>
-            <form onSubmit={event => handleSubmit(event)} onKeyDown={props.closeLoginHandler2} tabIndex="0">
+        <div className='loginPage'>
+            <form className='loginForm' onSubmit={event => handleSubmit(event)} onKeyDown={props.closeLoginHandler2} tabIndex="0">
                 <h1>Login</h1>
-                <p>
-                    <label>
-                        Username:
-                        <input type="text" name="username" onChange={changeHandler} value={name.username} />
-                    </label>
-                </p>
-
-                <p>
-                    <label>
-                        Password:
-                        <input type="password" name="password" onChange={changeHandler} value={name.password} />
-                    </label>
-                </p>
+                <p>Username</p>
+                <input type="text" name="username" onChange={changeHandler} value={name.username} />
+                <p>Password</p>
+                <input type="password" name="password" onChange={changeHandler} value={name.password} />
                 <button onClick={login}>Login!</button>
             </form>
         </div>
