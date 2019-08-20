@@ -1,0 +1,83 @@
+html {
+  background: #5b5bce;
+}
+
+.App {
+  text-align: center;
+}
+
+.loginPage {
+  margin: 3rem auto;
+  width: 50%;
+  background: #777777;
+  box-shadow: 2px 2px 10px #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.loginForm {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm input {
+  margin: auto;
+  width: 40%;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.loginForm button {
+  margin: auto;
+  padding: 0.5rem 0;
+  margin: 2rem 0;
+  width: 20%;
+  background: #5b5bce;
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.loginForm button:hover {
+  background: #4a4aa8;
+  cursor: pointer;
+}
+
+.loginForm button:active {
+  box-shadow: none;
+}
+
+.friendsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #777777;
+}
+
+.card {
+  background: #5b5bce;
+  margin: 2rem 2rem;
+  padding: 2rem 0;
+  width: 30rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.cardContent {
+  background: #fff;
+  padding: 1rem 0;
+  margin: auto;
+  width: 20rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #000;
+}
+
+.friendsPage h1 {
+  font-size: 3rem;
+  color: #fff;
+}
